@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Quicksand:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+    font-family: "Quicksand";
+}
+h1{
+    font-family: "Oswald";
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%
+}
+#icones{
+    margin: 35px 0px 0px 25px;
+}
+svg{
+    fill: white;
+    width: 12px ;
+    margin: 8px;
+}
+#menor{
+    width: 8px;
+}
+header{
+    background-color: black;
+    height: 100vh;
+    width: 13.5%;
+    position: fixed;
+    z-index: 3;
+}
+header > span{
+    display: inline-block;
+    margin: 30px;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+header > ul{
+    margin-left: 13px;
+    list-style-type: none;
+}
+header li{
+    margin: 18px;
+    font-size: 0.77em;
+}
+header a{
+    text-decoration: none;
+}
+/*FIM HEADER*/
+#fundo_mulher{
+    background-image: url("https://preview.colorlib.com/theme/elit/images/img_9.jpg");
+    position: absolute;
+    background-size: 100%;
+    width: 100%;
+    height: 100vh;
+}
+#welcome{
+    margin-left: 250px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: brightness(60%);
+}
+
+#welcome p{
+    width: 60%;
+    line-height: 30px;
+    margin: 0px 0px 48px 0px;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+}
+#welcome button{
+    display: inline-block;
+    width: 164px;
+    height: 53px;
+    background-color: #df0e62;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 53px;
+    border: none;
+}
+#welcome h1{
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 4em;
+}
+
+main{
+    position: relative;
+    margin-top: 100vh;
+    margin-left: 250px;
+    background-color: black;    
+    display: flex; 
+    flex-wrap: wrap;
+}
+main img{
+    object-fit: cover;
+    width: 33%;
+    margin: 0px 3px 5px 0px;
+    height: 250px;
+}
+main > img:hover{
+    filter: brightness(40%);
+}
+
+#depoimentos{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#depoimentos h1{
+    font-size: 3em;
+}
+#depoimentos img{   
+    width: 165px;
+    height: 165px;
+    margin-top: 40px;
+    border-radius: 50%;
+}
+#depoimentos h2{
+    font-size: 1.15em;
+    margin-top: 18px;
+}
+#depoimentos p{
+    width: 700px;
+    height: 81px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+    color: #808080;
+    margin-top: 18px;
+}
+#depoimentosBolas{
+    display: flex;
+    margin-top: 20px;
+}
+#bola1{
+    background-color: #df0e62;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+    
+}
+#bola2{
+    background-color: #333333;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#biografia{
+    position: relative;
+    margin-top: 80px;
+    background-color: rgb(26, 26, 26);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 125px;
+}
+#container_biografia{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+#container_biografia > h1{
+    font-size: 4rem;
+    font-weight: 400;
+}
+#container_biografia > img{
+    margin-top: 50px;
+    width: 50%;
+    height: 400px;
+}
+#container_biografia > h2{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: "Oswald";
+    margin-top: 30px;
+}
+#container_biografia > p{
+    margin-top: 10px;
+    color: #808080;
+    line-height: 25px;
+}
+#container_biografia > ul{
+    margin-top: 35px;
+    columns: 2;
+    list-style-position: inside;
+    list-style: none;
+}
+#container_biografia li{
+    color: #808080;
+    margin-bottom: 20px;
+}
+#container_biografia li::before{
+    content: "✔️";
+    padding-right: 10px;
+}
+
+#blog{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#container_blog{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+#container_blog h1{
+    font-size: 64px;
+    margin-bottom: 40px;
+}
+.menu_navegacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+
+    color: #df0e62;
+    border-radius: 50%;
+}
+#contato{
+    position: relative;
+    margin-top: 100px;
+    background-color: rgb(26, 26, 26);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+#contato::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6%;
+    height: 5px;
+    background-color: #df0e62;
+}
+#container_contato{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+#container_contato h1{
+    font-size: 4rem;
+    font-weight: 400;
+}
+#container_contato input{
+    border: none;
+    border-bottom: 2px solid gray;
+    background: none;
+    color: white;
+}
+#container_contato button{
+    display: block;
+    margin-top: 45px;
+    letter-spacing: .1em;
+    font-size: 14px;
+    width: 180px;
+    height: 53px;
+    background-color: #df0e62;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    border: none;
+}
